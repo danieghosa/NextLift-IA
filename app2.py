@@ -5,7 +5,7 @@ from datetime import datetime
 
 # 0) Configuración de página
 st.set_page_config(page_title="NextLift IA", layout="centered")
-st.image("assets/logo_hd.png", use_column_width=True)
+st.image("logo.png", use_column_width=True)
 
 # 1) Logo
 st.image("logo.png", width=200)
