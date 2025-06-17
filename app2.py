@@ -5,6 +5,7 @@ from datetime import datetime
 
 # 0) Configuración de página
 st.set_page_config(page_title="NextLift IA", layout="centered")
+st.image("assets/logo_hd.png", use_column_width=True)
 
 # 1) Logo
 st.image("logo.png", width=200)
@@ -79,3 +80,10 @@ elif st.session_state.step == 3:
     st.pyplot(fig)
     # opción de reiniciar
     st.button("↺ Comenzar de nuevo", on_click=reset)
+
+st.sidebar.markdown("## About")
+st.sidebar.markdown("**NextLift IA** by Daniel Eghosa Omoruyi\n\n"
+                    "🚀 Founder @ NextLift Technologies\n\n"
+                    "✉️ contacto@nextlift.ai\n\n"
+                    "[GitHub](https://github.com/danieghosa) • "
+                    "[LinkedIn](https://www.linkedin.com/in/danieghosa)")
